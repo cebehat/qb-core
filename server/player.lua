@@ -139,7 +139,11 @@ function QBCore.Player.CheckPlayerData(source, PlayerData)
         ['date'] = nil
     }
     PlayerData.metadata['licences'] = PlayerData.metadata['licences'] or {
-        ['driver'] = true,
+        ['N'] = false, -- theory
+		['A'] = false, -- motorcycle
+		['B'] = false, -- car
+		['C'] = false, -- truck
+		['D'] = false, -- bus
         ['business'] = false,
         ['weapon'] = false
     }
