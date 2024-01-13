@@ -631,7 +631,7 @@ local Vehicles = {
     { model = 'miljet',        name = 'Miljet',                        brand = 'Buckingham',      price = 45000,   category = 'planes',         type = 'plane',      shop = 'air' },
     { model = 'besra',         name = 'Besra',                         brand = 'Western Company', price = 45000,   category = 'planes',         type = 'plane',      shop = 'none' },
     { model = 'vestra',        name = 'Vestra',                        brand = 'Buckingham',      price = 45000,   category = 'planes',         type = 'plane',      shop = 'air' },
-    { model = 'cargoplane',    name = 'Cargo Plane',                   brand = 'JoBuilt',         price = 45000,   category = 'planes',         type = 'plane',      shop = 'air' },
+    { model = 'cargoplane',    name = 'Cargo Plane',                   brand = 'JoBuilt',         price = 45000,   category = 'planes',         type = 'plane',      shop = 'none' },
     { model = 'velum',         name = 'Velum',                         brand = 'JoBuilt',         price = 45000,   category = 'planes',         type = 'plane',      shop = 'air' },
     { model = 'titan',         name = 'Titan',                         brand = 'Unknown',         price = 45000,   category = 'planes',         type = 'plane',      shop = 'none' },
     { model = 'shamal',        name = 'Shamal',                        brand = 'Buckingham',      price = 45000,   category = 'planes',         type = 'plane',      shop = 'air' },
@@ -720,10 +720,10 @@ local Vehicles = {
     { model = 'benson',        name = 'Benson',                        brand = 'Vapid',           price = 55000,   category = 'commercial',     type = 'automobile', shop = 'truck' },
     --- Trains (21)
     --- Open Wheel (22)
-    { model = 'openwheel2',    name = 'DR1',                           brand = 'Declasse',        price = 100000,  category = 'openwheel',      type = 'automobile', shop = 'none' },
-    { model = 'openwheel1',    name = 'BR8',                           brand = 'Benefactor',      price = 100000,  category = 'openwheel',      type = 'automobile', shop = 'none' },
-    { model = 'formula2',      name = 'R88',                           brand = 'Ocelot',          price = 100000,  category = 'openwheel',      type = 'automobile', shop = 'none' },
-    { model = 'formula',       name = 'PR4',                           brand = 'Progen',          price = 100000,  category = 'openwheel',      type = 'automobile', shop = 'none' },
+    { model = 'openwheel2',    name = 'DR1',                           brand = 'Declasse',        price = 100000,  category = 'openwheel',      type = 'automobile', shop = 'luxury' },
+    { model = 'openwheel1',    name = 'BR8',                           brand = 'Benefactor',      price = 100000,  category = 'openwheel',      type = 'automobile', shop = 'luxury' },
+    { model = 'formula2',      name = 'R88',                           brand = 'Ocelot',          price = 100000,  category = 'openwheel',      type = 'automobile', shop = 'luxury' },
+    { model = 'formula',       name = 'PR4',                           brand = 'Progen',          price = 100000,  category = 'openwheel',      type = 'automobile', shop = 'luxury' },
 }
 
 for i = 1, #Vehicles do
